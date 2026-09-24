@@ -453,3 +453,58 @@ body{ overflow-x:clip; }
 @media (max-width:760px){
   .consent{ right:16px; max-width:none; padding-bottom:68px; }
 }
+
+/* ============================================
+   V3 — quebras de linha, achados no mobile, entregáveis visíveis, pro bono, comparativo
+   ============================================ */
+h1, h2, h3, .section-header .lede, .hero-sub{ text-wrap:balance; }
+p, li{ text-wrap:pretty; }
+
+/* Achados: número em banner no desktop; no mobile ele vira o começo da frase */
+.finding-figure{ display:none; font-family:var(--font-heading); font-weight:700; font-size:1.5rem; color:var(--navy); line-height:1.1; margin-right:2px; }
+
+/* Entregáveis sempre visíveis, com mais peso visual */
+.case-delivered{ margin-top:36px; padding-top:28px; border-top:2px solid var(--sand-dark); }
+.case-delivered-title{ font-family:var(--font-heading); font-size:clamp(1.25rem,2.4vw,1.5rem); color:var(--navy); margin:0 0 4px; display:flex; align-items:center; gap:12px; }
+.case-delivered-title::before{ content:""; flex:0 0 auto; width:12px; height:12px; border-radius:50%; background:var(--coral); }
+.deliv{ background:var(--white); border:1px solid var(--sand-dark); border-top:4px solid var(--navy); box-shadow:var(--shadow-soft); }
+.deliv:nth-child(2){ border-top-color:var(--coral); }
+.deliv:nth-child(3){ border-top-color:#2F7D4F; }
+.deliv:nth-child(4){ border-top-color:#4B6A7D; }
+.deliv h5{ font-size:1.08rem; }
+.deliv ul{ font-size:.92rem; }
+
+/* Pro bono */
+.probono{ display:flex; gap:16px; align-items:flex-start; margin-top:26px; padding:18px 20px; border:1px solid rgba(255,255,255,0.22); background:rgba(255,255,255,0.06); border-radius:var(--radius-md); }
+.probono-icon{ flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:var(--coral); color:var(--white); }
+.probono strong{ display:block; color:var(--white); font-family:var(--font-heading); font-size:1.12rem; margin-bottom:4px; }
+.bg-navy .probono p{ margin:0; font-size:.95rem; color:rgba(255,255,255,0.82); }
+
+/* Comparativo respeitoso */
+.compare-col.market h3{ color:rgba(255,255,255,0.9); }
+.compare-col.market li{ color:rgba(255,255,255,0.78); }
+.compare-icon{ width:1.1em; text-align:center; }
+.compare-note{ max-width:780px; margin:32px auto 0; text-align:center; font-size:1rem; }
+
+@media (max-width:900px){
+  .finding > .finding-num{ display:none; }
+  .finding-figure{ display:inline; }
+  .finding > div{ padding:16px 18px; }
+}
+@media (max-width:600px){
+  h1{ font-size:clamp(1.85rem,7.6vw,2.4rem); line-height:1.15; }
+  h2{ font-size:clamp(1.55rem,6.6vw,2rem); }
+  h3{ font-size:1.14rem; }
+  .container{ padding:0 20px; }
+  .lede{ font-size:1.02rem; }
+  .hero-sub{ font-size:1.04rem; }
+  .eyebrow{ font-size:.72rem; letter-spacing:.1em; }
+  .hero-eyebrow{ font-size:.7rem; letter-spacing:.1em; line-height:1.45; border-radius:12px; padding:8px 14px; }
+  .help-tag{ border-radius:10px; line-height:1.45; }
+  .pain-card, .help-card, .model-card{ padding:28px 22px; }
+  .compare-col{ padding:28px 22px; }
+  .case-main{ padding:26px 20px; }
+  .case-side{ padding:26px 22px; }
+  .section-header{ margin-bottom:40px; }
+  .probono{ padding:16px; gap:12px; }
+}

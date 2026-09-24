@@ -53,7 +53,6 @@ Eventos enviados ao `dataLayer` (todos com `page_language`):
 | `contact_click` | clique em e-mail, telefone ou LinkedIn | `contact_method`, `click_location` |
 | `cta_click` | clique em botão que leva a uma âncora | `cta_text`, `cta_target`, `click_location` |
 | `language_switch` | troca de idioma | `target_language` |
-| `case_expand` | abre "o que foi entregue" de um case | `case_name` |
 | `scheduler_load` | agenda carregada | `auto_loaded` |
 | `view_scheduler` | agenda entra na tela | |
 | `consent_update` | escolha no banner | `consent_granted` |
@@ -75,6 +74,6 @@ O número exibido na conta (`141-446-7631`) é o **ID do cliente** e não serve 
 
 ## Pendências
 
-- Endereço nos avisos legais: hoje é o do registro (Aix-en-Provence), enquanto o site mostra Paris como cidade-base. Confirmar.
+- Atualizar a atividade (conseil, APE 7022Z) e o endereço (Chatou) no Guichet Unique, para bater com os avisos legais.
 - ID de medição do GA4 (`G-…`) no GTM.
 - Conferir os textos jurídicos com um profissional, se desejado.
