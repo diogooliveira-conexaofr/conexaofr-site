@@ -1,6 +1,6 @@
 # Conexão.fr — site institucional (PT / FR / EN)
 
-Site estático em HTML/CSS/JS puro, publicado no Netlify a partir deste repositório (GitHub). Cada `git push` na branch `main` publica automaticamente.
+Site estático em HTML/CSS/JS puro, publicado no GitHub Pages a partir deste repositório. Cada `git push` na branch `main` publica automaticamente, em 1 a 2 minutos.
 
 ## Estrutura
 
@@ -16,7 +16,8 @@ assets/site.js                 Menu, banner de cookies (Consent Mode v2), evento
 assets/foto-diogo.jpg          Foto (800×800, otimizada)
 assets/logo-*.png              Logos Kokua e Skin Essentials (uso autorizado)
 assets/og-image.png            Imagem de compartilhamento (1200×630)
-sitemap.xml, robots.txt, llms.txt, favicon.svg, _headers
+sitemap.xml, robots.txt, llms.txt, favicon.svg, 404.html
+CNAME, .nojekyll               Necessários ao GitHub Pages (domínio personalizado e sem Jekyll)
 docs/gtm-container-conexaofr.json   Container do GTM para importar
 ```
 
@@ -26,9 +27,9 @@ O design system (cores e tipografia) está em variáveis CSS no `:root` de `asse
 
 1. Editar os arquivos.
 2. `git add -A && git commit -m "mensagem" && git push`.
-3. O Netlify publica em cerca de 30 segundos.
+3. O GitHub Pages publica em 1 a 2 minutos (aba Actions do repositório mostra o andamento).
 
-DNS: o domínio raiz tem um registro A para o Netlify e o `www` um CNAME para `conexaofr-site.netlify.app`, gerenciados no Wix (o DNS fica no Wix para manter o e-mail do Google Workspace). Não alterar os registros MX e TXT.
+DNS (gerenciado no Wix, para manter o e-mail do Google Workspace): o domínio raiz tem quatro registros A do GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) e o `www` um CNAME para `diogooliveira-conexaofr.github.io`. Não alterar os registros MX e TXT. O repositório é público (exigência do plano gratuito do GitHub Pages).
 
 ## SEO e AIO
 
