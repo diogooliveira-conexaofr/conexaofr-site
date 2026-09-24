@@ -445,3 +445,11 @@ body{ overflow-x:clip; }
   .logo{ font-size:1.35rem; }
   .nav-right .btn{ padding:10px 14px; font-size:.85rem; }
 }
+
+/* Banner de cookies: à esquerda, longe do selo "Powered by Netlify" (canto inferior direito) */
+.consent{ left:16px; right:auto; margin:0; max-width:520px; }
+.consent-actions{ justify-content:flex-start; }
+.consent .btn{ width:auto; flex:0 0 auto; min-width:120px; }
+@media (max-width:760px){
+  .consent{ right:16px; max-width:none; padding-bottom:68px; }
+}
