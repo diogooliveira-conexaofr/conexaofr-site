@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/index.html)",
+      "Bash(xargs -I{} ls -lt {})",
+      "Bash(sort -k6,7)",
+      "PowerShell(gh --version)",
+      "PowerShell(gh auth status)",
+      "Bash(mkdir -p fr en)",
+      "Bash(mv index-fr.html fr/index.html)",
+      "Bash(mv index-en.html en/index.html)",
+      "Bash(sed -i -e 's|href=\"index\\\\.html\"|href=\"/\"|g' -e 's|href=\"index-fr\\\\.html\"|href=\"/fr/\"|g' -e 's|href=\"index-en\\\\.html\"|href=\"/en/\"|g' -e 's|src=\"assets/|src=\"/assets/|g' index.html fr/index.html en/index.html)"
+    ]
+  }
+}
