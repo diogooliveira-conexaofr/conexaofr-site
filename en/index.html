@@ -3,387 +3,152 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Consent Mode v2: everything denied by default; the banner (assets/site.js) updates it based on the visitor's choice -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('consent', 'default', {
+  ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied',
+  wait_for_update: 500
+});
+gtag('set', 'ads_data_redaction', true);
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M29VZQ7R');</script>
+<!-- End Google Tag Manager -->
+
 <title>Diogo Pires de Oliveira | Independent Strategy Consultant Brazil-France</title>
-<meta name="description" content="Independent strategy consultant with 20 years between Brazil and France. Diogo Pires de Oliveira helps companies turn strategy into action: commercial growth, Brazil-France expansion and product strategy.">
+<meta name="description" content="Independent strategy consultant with 20+ years between Brazil and France. Diogo Pires de Oliveira helps companies turn strategy into action: strategic planning, commercial growth, Brazil-France expansion and founder mentoring.">
 <meta name="keywords" content="independent strategy consultant, strategic consulting Brazil France, business strategy advisor, Brazil France market expansion, startup founder strategy mentoring">
 <meta name="author" content="Diogo Pires de Oliveira">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.conexao.fr/en/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://conexao.fr/en/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-<!-- WIX: hreflang - Wix Multilingual generates this automatically once the 3 languages are enabled in the panel. Kept here as reference for publishing outside Wix. -->
-<link rel="alternate" hreflang="pt-BR" href="https://www.conexao.fr/">
-<link rel="alternate" hreflang="fr" href="https://www.conexao.fr/fr/">
-<link rel="alternate" hreflang="en" href="https://www.conexao.fr/en/">
-<link rel="alternate" hreflang="x-default" href="https://www.conexao.fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://conexao.fr/">
+<link rel="alternate" hreflang="fr" href="https://conexao.fr/fr/">
+<link rel="alternate" hreflang="en" href="https://conexao.fr/en/">
+<link rel="alternate" hreflang="x-default" href="https://conexao.fr/">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Conexão.fr">
 <meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="fr_FR">
 <meta property="og:title" content="Diogo Pires de Oliveira | Independent Strategy Consultant Brazil-France">
-<meta property="og:description" content="You have the strategy. You need someone to make it happen. Independent strategic consulting, 20 years between Brazil and France.">
-<meta property="og:url" content="https://www.conexao.fr/en/">
-<meta property="og:image" content="https://www.conexao.fr/assets/og-image.jpg">
+<meta property="og:description" content="You have the strategy. You need someone to make it happen. Independent strategic consulting, 20+ years between Brazil and France.">
+<meta property="og:url" content="https://conexao.fr/en/">
+<meta property="og:image" content="https://conexao.fr/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Conexão.fr — Diogo Pires de Oliveira, Independent Strategy Consultant">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Diogo Pires de Oliveira | Independent Strategy Consultant Brazil-France">
-<meta name="twitter:description" content="Independent strategic consulting, 20 years between Brazil and France. Strategy that leaves the page.">
+<meta name="twitter:description" content="Independent strategic consulting, 20+ years between Brazil and France. Strategy that leaves the page.">
+<meta name="twitter:image" content="https://conexao.fr/assets/og-image.png">
 
-<!-- WIX: fonts - if possible, install Georgia as a system font in the Wix Editor; Cormorant Garamond loads via Google Fonts as a fallback/enhancement. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
 
-<!-- WIX: JSON-LD - insert via "Custom Code" (Settings > Marketing & SEO Tools > Custom Code), loaded in the <head>, applied to this page only. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://www.conexao.fr/#diogo",
+      "@id": "https://conexao.fr/#diogo",
       "name": "Diogo Pires de Oliveira",
       "jobTitle": "Independent Strategy Consultant",
-      "description": "Independent strategy consultant with 20 years of experience between Brazil and France, specialized in strategic planning, commercial growth and international expansion.",
-      "url": "https://www.conexao.fr/en/",
-      "worksFor": { "@id": "https://www.conexao.fr/#conexaofr" },
+      "description": "Independent strategy consultant with 20+ years of experience between Brazil and France, specialized in strategic planning, commercial growth, pricing and international expansion. Advisory Board member at Kokua since 2022.",
+      "url": "https://conexao.fr/en/",
+      "image": "https://conexao.fr/assets/foto-diogo.jpg",
+      "email": "contato@conexao.fr",
+      "telephone": "+33775763240",
+      "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressCountry": "FR" },
+      "worksFor": { "@id": "https://conexao.fr/#conexaofr" },
       "knowsLanguage": ["pt-BR", "fr", "en"],
+      "knowsAbout": ["Strategic planning", "Commercial strategy", "Pricing", "Go-to-market", "Brazil-France expansion", "Product strategy", "Founder mentoring"],
       "alumniOf": [
-        { "@type": "Organization", "name": "GPA - Grupo Pão de Açúcar" },
+        { "@type": "Organization", "name": "AmBev" },
+        { "@type": "Organization", "name": "Mercado Livre" },
+        { "@type": "Organization", "name": "Boehringer Ingelheim" },
+        { "@type": "Organization", "name": "Votorantim Cimentos" },
         { "@type": "Organization", "name": "Groupe Casino" },
-        { "@type": "Organization", "name": "Movida" },
-        { "@type": "Organization", "name": "Quicko" }
+        { "@type": "Organization", "name": "GPA - Grupo Pão de Açúcar" },
+        { "@type": "Organization", "name": "Stix Fidelidade" },
+        { "@type": "Organization", "name": "Quicko" },
+        { "@type": "Organization", "name": "Movida" }
       ],
-      "memberOf": { "@type": "Organization", "name": "Kokua", "description": "Advisory Board" },
+      "memberOf": { "@type": "Organization", "name": "Kokua Sport Care & Wellness", "description": "Advisory Board since 2022" },
       "sameAs": ["https://www.linkedin.com/in/diogopiresdeoliveira/"]
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://www.conexao.fr/#conexaofr",
+      "@id": "https://conexao.fr/#conexaofr",
       "name": "Conexão.fr",
-      "founder": { "@id": "https://www.conexao.fr/#diogo" },
+      "founder": { "@id": "https://conexao.fr/#diogo" },
       "description": "Independent strategic consulting for companies that need strategic planning, commercial growth and expansion between Brazil and France.",
+      "url": "https://conexao.fr/en/",
+      "logo": "https://conexao.fr/favicon.svg",
+      "image": "https://conexao.fr/assets/og-image.png",
+      "email": "contato@conexao.fr",
+      "telephone": "+33775763240",
+      "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressCountry": "FR" },
       "areaServed": ["Brazil", "France"],
       "availableLanguage": ["Portuguese", "French", "English"],
-      "url": "https://www.conexao.fr/en/",
-      "slogan": "Strategy that leaves the page."
+      "slogan": "Strategy that leaves the page.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Areas of work",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic Planning & Alignment" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Growth" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brazil ↔ France Expansion" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Product Strategy & Founder Mentoring" } }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://conexao.fr/en/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        { "@type": "Question", "name": "What does an independent strategy consultant do?",
+          "acceptedAnswer": { "@type": "Answer", "text": "An independent strategy consultant helps a company decide where to go, prioritize what matters and turn that into an executable plan, without being tied to a large firm. Diogo Pires de Oliveira works directly with the client and stays involved until the plan becomes action." } },
+        { "@type": "Question", "name": "How is an independent consultant different from a large consulting firm?",
+          "acceptedAnswer": { "@type": "Answer", "text": "In large firms there is often a partner who sells and a junior team that delivers. With Conexão.fr you talk directly to the person who thinks and executes, with no overhead and no 90-day adaptation period before value starts to show." } },
+        { "@type": "Question", "name": "What kind of company and moment is this work right for?",
+          "acceptedAnswer": { "@type": "Answer", "text": "SMEs, scale-ups and founders who have a vision but can't get it off the page; whose sales depend on a few people; who need to build structure before scaling; or who want to grow between Brazil and France without improvising." } },
+        { "@type": "Question", "name": "How does the first contact work?",
+          "acceptedAnswer": { "@type": "Answer", "text": "With a 30-minute conversation, no commitment, booked directly on the site. You don't need to have everything figured out beforehand: the conversation is there to understand where you are, where you want to go and which format makes the most sense." } },
+        { "@type": "Question", "name": "What working formats are available?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A single 90-minute session with a written summary; a monthly retainer with four 60-minute sessions and availability in between; or a 2 to 3 month project with defined scope and deliverables. Hybrid models and other forms of collaboration are welcome." } },
+        { "@type": "Question", "name": "How much does independent strategy consulting cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The investment depends on the format and scope. In the 30-minute conversation I understand your challenge and recommend the most suitable format, with a clear proposal before any commitment." } },
+        { "@type": "Question", "name": "Do you work with companies between Brazil and France?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Diogo Pires de Oliveira has more than 20 years of experience between the two countries and works in Portuguese, French and English. Support includes market validation, entry strategy, business model adaptation and identifying local partners." } },
+        { "@type": "Question", "name": "Are the case studies real?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, they reflect real projects. The figures are illustrative and some details are omitted to protect client confidentiality." } }
+      ]
     }
   ]
 }
 </script>
-
-<style>
-/* ============================================
-   CONEXÃO.FR — DESIGN SYSTEM (identical across all 3 languages)
-   ============================================ */
-:root{
-  --navy:#1C3D5A;
-  --navy-light:#28527a;
-  --coral:#C8441A;
-  --coral-dark:#A03811;
-  --sand:#F5F0E8;
-  --sand-dark:#EDE6D8;
-  --white:#FFFFFF;
-  --mid-grey:#6B7B8A;
-  --light-grey:#9AABB8;
-
-  --font-heading: Georgia, 'Cormorant Garamond', 'Times New Roman', serif;
-  --font-body: Calibri, 'DM Sans', -apple-system, Arial, sans-serif;
-
-  --max-width: 1180px;
-  --radius-sm: 3px;
-  --radius-md: 6px;
-  --shadow-soft: 0 4px 24px rgba(28,61,90,0.08);
-  --shadow-lift: 0 12px 32px rgba(28,61,90,0.14);
-  --transition: 0.25s ease;
-}
-
-*, *::before, *::after{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; scroll-padding-top:84px; }
-body{
-  margin:0;
-  font-family:var(--font-body);
-  color:var(--navy);
-  background:var(--white);
-  line-height:1.7;
-  font-size:16px;
-  -webkit-font-smoothing:antialiased;
-}
-img{ max-width:100%; display:block; }
-a{ color:inherit; text-decoration:none; }
-ul{ margin:0; padding:0; list-style:none; }
-h1,h2,h3,h4{
-  font-family:var(--font-heading);
-  color:var(--navy);
-  line-height:1.2;
-  margin:0 0 .6em;
-  font-weight:700;
-}
-h1{ font-size:clamp(2.3rem, 5vw, 4rem); }
-h2{ font-size:clamp(1.9rem, 3.6vw, 2.7rem); }
-h3{ font-size:clamp(1.25rem, 2.2vw, 1.55rem); }
-p{ margin:0 0 1.1em; color:var(--mid-grey); }
-p:last-child{ margin-bottom:0; }
-strong{ color:var(--navy); }
-
-.container{
-  max-width:var(--max-width);
-  margin:0 auto;
-  padding:0 24px;
-}
-.section{ padding:clamp(64px, 9vw, 128px) 0; }
-.bg-white{ background:var(--white); }
-.bg-sand{ background:var(--sand); }
-.bg-sand-dark{ background:var(--sand-dark); }
-.bg-navy{ background:var(--navy); }
-.bg-coral{ background:var(--coral); }
-.bg-navy h2, .bg-navy h3, .bg-navy p, .bg-navy .eyebrow{ color:var(--white); }
-.bg-navy p{ color:rgba(255,255,255,0.78); }
-.bg-coral h2, .bg-coral h3, .bg-coral p{ color:var(--white); }
-.bg-coral p{ color:rgba(255,255,255,0.9); }
-
-.skip-link{
-  position:absolute; left:-999px; top:auto;
-  background:var(--navy); color:var(--white); padding:12px 20px; z-index:200;
-  border-radius:0 0 6px 0;
-}
-.skip-link:focus{ left:0; top:0; }
-
-.eyebrow{
-  display:inline-flex; align-items:center; gap:10px;
-  font-family:var(--font-body); font-weight:700; font-size:.78rem;
-  letter-spacing:.14em; text-transform:uppercase; color:var(--coral);
-  margin-bottom:14px;
-}
-.eyebrow::before{ content:""; display:block; width:28px; height:2px; background:var(--coral); }
-
-.section-header{ max-width:720px; margin-bottom:56px; }
-.section-header.center{ margin-left:auto; margin-right:auto; text-align:center; }
-.section-header.center .eyebrow{ justify-content:center; }
-.lede{ font-size:1.12rem; }
-
-/* Buttons */
-.btn{
-  display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  font-family:var(--font-body); font-weight:700; font-size:.98rem;
-  padding:16px 34px; border-radius:var(--radius-sm);
-  border:2px solid transparent; cursor:pointer;
-  transition:background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
-  white-space:nowrap;
-}
-.btn-primary{ background:var(--coral); color:var(--white); }
-.btn-primary:hover{ background:var(--coral-dark); transform:translateY(-2px); box-shadow:var(--shadow-lift); }
-.btn-ghost-light{ border-color:rgba(255,255,255,0.4); color:var(--white); }
-.btn-ghost-light:hover{ border-color:var(--white); background:rgba(255,255,255,0.08); transform:translateY(-2px); }
-.btn-ghost-navy{ border-color:var(--navy); color:var(--navy); }
-.btn-ghost-navy:hover{ background:var(--navy); color:var(--white); transform:translateY(-2px); }
-.btn-on-coral{ background:var(--white); color:var(--coral); }
-.btn-on-coral:hover{ background:var(--navy); color:var(--white); transform:translateY(-2px); }
-
-/* NAV */
-.nav{
-  position:sticky; top:0; z-index:100;
-  background:rgba(255,255,255,0.92); backdrop-filter:blur(8px);
-  border-bottom:1px solid transparent;
-  transition:box-shadow var(--transition), border-color var(--transition);
-}
-.nav.is-scrolled{ box-shadow:0 2px 18px rgba(28,61,90,0.08); border-color:var(--sand-dark); }
-.nav-inner{
-  max-width:var(--max-width); margin:0 auto; padding:16px 24px;
-  display:flex; align-items:center; justify-content:space-between; gap:20px;
-}
-.logo{ font-family:var(--font-heading); font-size:1.6rem; white-space:nowrap; }
-.logo-main{ font-weight:700; color:var(--navy); }
-.logo-suffix{ font-weight:300; font-style:italic; color:var(--coral); }
-.nav-links{
-  display:flex; gap:30px; margin:0 auto; padding:0 20px;
-  font-size:.95rem; font-weight:500;
-}
-.nav-links a{ color:var(--navy); position:relative; padding:6px 0; transition:color var(--transition); }
-.nav-links a:hover{ color:var(--coral); }
-.nav-right{ display:flex; align-items:center; gap:22px; }
-.lang-switch{ display:flex; align-items:center; gap:6px; font-size:.85rem; font-weight:700; letter-spacing:.03em; }
-.lang-switch a{ color:var(--light-grey); padding:4px 3px; transition:color var(--transition); }
-.lang-switch a:hover{ color:var(--coral); }
-.lang-switch a[aria-current="page"]{ color:var(--navy); border-bottom:2px solid var(--coral); }
-.lang-sep{ color:var(--light-grey); }
-.nav-toggle{
-  display:none; background:none; border:none; cursor:pointer; padding:6px;
-  flex-direction:column; gap:5px;
-}
-.nav-toggle span{ width:24px; height:2px; background:var(--navy); display:block; transition:var(--transition); }
-
-/* HERO */
-.hero{
-  background:radial-gradient(ellipse at top right, var(--navy-light) 0%, var(--navy) 55%);
-  color:var(--white); position:relative; overflow:hidden;
-  padding:clamp(90px, 14vw, 160px) 0 clamp(70px, 10vw, 120px);
-}
-.hero::after{
-  content:""; position:absolute; right:-10%; bottom:-30%; width:60%; padding-bottom:60%;
-  border-radius:50%; background:radial-gradient(circle, rgba(200,68,26,0.22) 0%, transparent 70%);
-  pointer-events:none;
-}
-.hero-inner{ max-width:820px; position:relative; z-index:1; }
-.hero-eyebrow{
-  display:inline-block; font-size:.8rem; font-weight:700; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--sand); border:1px solid rgba(255,255,255,0.3);
-  padding:8px 18px; border-radius:30px; margin-bottom:28px;
-}
-.hero h1{ color:var(--white); margin-bottom:.5em; }
-.hero .hero-sub{ font-size:1.2rem; color:rgba(255,255,255,0.82); margin-bottom:2.2em; max-width:600px; }
-.hero-ctas{ display:flex; align-items:center; gap:28px; flex-wrap:wrap; }
-.hero-scroll-hint{ font-size:.9rem; color:rgba(255,255,255,0.65); }
-.hero-scroll-hint a{ color:rgba(255,255,255,0.85); border-bottom:1px solid rgba(255,255,255,0.4); padding-bottom:2px; }
-
-/* PROBLEM */
-.pain-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:32px; }
-.pain-card{
-  background:var(--white); border:1px solid var(--sand-dark); border-radius:var(--radius-md);
-  padding:36px 30px; transition:box-shadow var(--transition), transform var(--transition);
-}
-.pain-card:hover{ box-shadow:var(--shadow-soft); transform:translateY(-4px); }
-.pain-num{ font-family:var(--font-heading); font-size:2.6rem; font-weight:700; color:var(--sand-dark); line-height:1; margin-bottom:18px; }
-.pain-card h3{ margin-bottom:.5em; }
-
-/* HELP GRID */
-.help-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:28px; }
-.help-card{
-  background:var(--white); border-radius:var(--radius-md); padding:38px 34px;
-  border:1px solid var(--sand-dark);
-  transition:box-shadow var(--transition), transform var(--transition), border-color var(--transition);
-}
-.help-card:hover{ box-shadow:var(--shadow-soft); transform:translateY(-4px); }
-.help-card.featured{
-  background:var(--navy); border-color:var(--navy); grid-column:span 2;
-  display:grid; grid-template-columns:1fr 1fr; gap:34px; align-items:center;
-}
-.help-card.featured h3, .help-card.featured .help-tag{ color:var(--white); }
-.help-card.featured p{ color:rgba(255,255,255,0.8); }
-.help-tag{
-  display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
-  color:var(--coral); background:rgba(200,68,26,0.1); padding:5px 12px; border-radius:20px; margin-bottom:14px;
-}
-.help-card.featured .help-tag{ background:rgba(255,255,255,0.12); color:var(--sand); }
-
-/* MODELS */
-.models-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-bottom:36px; }
-.model-card{
-  background:var(--sand); border-radius:var(--radius-md); padding:38px 30px;
-  border-top:4px solid var(--coral); transition:box-shadow var(--transition), transform var(--transition);
-}
-.model-card:hover{ box-shadow:var(--shadow-soft); transform:translateY(-4px); }
-.model-question{ font-family:var(--font-heading); font-style:italic; font-size:1.2rem; color:var(--navy); margin-bottom:16px; }
-.model-name{ display:block; font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--coral); margin-bottom:10px; }
-.models-note{
-  text-align:center; font-size:.98rem; color:var(--mid-grey); border-top:1px solid var(--sand-dark);
-  padding-top:28px; max-width:640px; margin:0 auto;
-}
-
-/* WHY / COMPARISON */
-.compare-grid{ display:grid; grid-template-columns:1fr 1fr; gap:0; border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-soft); }
-.compare-col{ padding:44px 40px; }
-.compare-col.market{ background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); }
-.compare-col.us{ background:var(--coral); }
-.compare-col h3{ margin-bottom:24px; }
-.compare-col.market h3{ color:rgba(255,255,255,0.5); }
-.compare-col.us h3{ color:var(--white); }
-.compare-list li{ display:flex; gap:12px; padding:10px 0; font-size:.98rem; }
-.compare-col.market li{ color:rgba(255,255,255,0.55); border-bottom:1px solid rgba(255,255,255,0.08); }
-.compare-col.us li{ color:rgba(255,255,255,0.96); border-bottom:1px solid rgba(255,255,255,0.18); }
-.compare-col li:last-child{ border-bottom:none; }
-.compare-icon{ flex-shrink:0; font-weight:700; }
-
-/* CASES */
-.case-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
-.case-card{
-  background:var(--white); border:1px solid var(--sand-dark); border-radius:var(--radius-md);
-  padding:36px 32px; display:flex; flex-direction:column; gap:18px;
-  transition:box-shadow var(--transition), transform var(--transition);
-}
-.case-card:hover{ box-shadow:var(--shadow-lift); transform:translateY(-4px); }
-.case-sector{
-  font-size:.75rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
-  color:var(--coral);
-}
-.case-card h3{ font-size:1.3rem; }
-.case-block h4{
-  font-family:var(--font-body); font-size:.78rem; font-weight:700; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--light-grey); margin-bottom:6px;
-}
-.case-block p{ font-size:.95rem; margin-bottom:0; }
-
-/* ABOUT */
-.about-grid{ display:grid; grid-template-columns:0.85fr 1.15fr; gap:60px; align-items:start; }
-.about-photo{
-  width:200px; height:200px; border-radius:50%; overflow:hidden;
-  border:4px solid var(--coral); box-shadow:var(--shadow-lift); margin-bottom:28px;
-}
-.about-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
-.about-track{ display:flex; flex-wrap:wrap; gap:10px; margin:28px 0; }
-.about-track span{
-  font-size:.82rem; font-weight:600; color:var(--sand); background:rgba(255,255,255,0.08);
-  border:1px solid rgba(255,255,255,0.18); padding:7px 16px; border-radius:30px;
-}
-.about-quote{
-  font-family:var(--font-heading); font-style:italic; font-size:1.35rem; color:var(--white);
-  border-left:3px solid var(--coral); padding-left:24px; margin:32px 0;
-}
-
-/* FINAL CTA */
-.final-cta{ text-align:center; }
-.final-cta .section-header{ margin-left:auto; margin-right:auto; }
-.contact-links{ display:flex; justify-content:center; gap:36px; flex-wrap:wrap; margin-top:36px; font-weight:600; }
-.contact-links a{ display:flex; align-items:center; gap:10px; color:var(--white); border-bottom:1px solid rgba(255,255,255,0.4); padding-bottom:3px; transition:border-color var(--transition); }
-.contact-links a:hover{ border-color:var(--white); }
-.scheduler-embed{
-  max-width:700px; margin:44px auto 0; background:var(--white); border-radius:var(--radius-md);
-  overflow:hidden; box-shadow:var(--shadow-lift);
-}
-.scheduler-embed iframe{ display:block; width:100%; border:0; }
-.scheduler-alt{ margin-top:32px; font-size:.9rem; color:rgba(255,255,255,0.85); }
-
-/* FOOTER */
-.footer{ background:var(--navy); color:rgba(255,255,255,0.7); padding:60px 0 30px; }
-.footer-top{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:36px; padding-bottom:36px; border-bottom:1px solid rgba(255,255,255,0.12); }
-.footer .logo-main{ color:var(--white); }
-.footer-tagline{ font-family:var(--font-heading); font-style:italic; color:var(--sand); margin-top:10px; font-size:1.05rem; }
-.footer-col h4{ font-size:.78rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,0.45); margin-bottom:14px; }
-.footer-col a, .footer-col li{ font-size:.92rem; margin-bottom:10px; color:rgba(255,255,255,0.75); }
-.footer-col a:hover{ color:var(--coral); }
-.footer-bottom{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; padding-top:24px; font-size:.82rem; color:rgba(255,255,255,0.45); }
-
-/* RESPONSIVE */
-@media (max-width:900px){
-  .help-grid{ grid-template-columns:1fr; }
-  .help-card.featured{ grid-column:span 1; grid-template-columns:1fr; }
-  .pain-grid, .models-grid, .case-grid{ grid-template-columns:1fr; }
-  .compare-grid{ grid-template-columns:1fr; }
-  .about-grid{ grid-template-columns:1fr; }
-  .about-monogram{ margin:0 auto 28px; }
-}
-@media (max-width:760px){
-  .nav-links{ position:absolute; top:100%; left:0; right:0; background:var(--white); flex-direction:column;
-    padding:20px 24px; gap:4px; border-bottom:1px solid var(--sand-dark); box-shadow:var(--shadow-soft);
-    transform-origin:top; transform:scaleY(0); opacity:0; pointer-events:none; transition:transform var(--transition), opacity var(--transition); }
-  .nav-links.is-open{ transform:scaleY(1); opacity:1; pointer-events:auto; }
-  .nav-links a{ padding:12px 0; border-bottom:1px solid var(--sand); width:100%; }
-  .nav-toggle{ display:flex; }
-  .nav-right .lang-switch{ display:none; }
-  .hero-ctas{ flex-direction:column; align-items:flex-start; gap:16px; }
-  .footer-top{ flex-direction:column; }
-}
-@media (max-width:480px){
-  .btn{ width:100%; }
-  .contact-links{ flex-direction:column; align-items:center; }
-}
-</style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M29VZQ7R" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <a class="skip-link" href="#main">Skip to content</a>
 
-<!-- WIX: Header/Nav — recommended as Wix's native Site Header to stay sticky across all sections. If using an HTML embed, it must sit outside the element's iframe to keep sticky behavior. -->
 <header class="nav" id="siteNav">
   <div class="nav-inner">
     <a href="#hero" class="logo" aria-label="Conexão.fr — home">
@@ -403,11 +168,11 @@ strong{ color:var(--navy); }
 
     <div class="nav-right">
       <div class="lang-switch" aria-label="Language selector">
-        <a href="/">PT</a>
+        <a href="/" hreflang="pt-BR" lang="pt-BR">PT</a>
         <span class="lang-sep">|</span>
-        <a href="/fr/">FR</a>
+        <a href="/fr/" hreflang="fr" lang="fr">FR</a>
         <span class="lang-sep">|</span>
-        <a href="/en/" aria-current="page">EN</a>
+        <a href="/en/" aria-current="page" hreflang="en" lang="en">EN</a>
       </div>
       <a href="#contact" class="btn btn-primary">Let's talk</a>
     </div>
@@ -416,20 +181,64 @@ strong{ color:var(--navy); }
 
 <main id="main">
 
-  <!-- WIX: Hero section — use as a full-width HTML embed (fullwidth Strip) or rebuild with a native Wix Section + Text + Button for better mobile performance. -->
   <section class="hero" id="hero">
-    <div class="container hero-inner">
-      <span class="hero-eyebrow">Independent Strategy Consulting</span>
-      <h1>You have the strategy. You need someone to make it happen.</h1>
-      <p class="hero-sub">Independent strategic consultant · 20 years between Brazil and France. A clear diagnosis, an executable plan, and someone by your side until it becomes results — not just a slide.</p>
-      <div class="hero-ctas">
-        <a href="#contact" class="btn btn-primary">Let's talk</a>
-        <span class="hero-scroll-hint">or <a href="#help">see how I can help ↓</a></span>
+    <div class="container hero-grid">
+      <div class="hero-inner">
+        <span class="hero-eyebrow">Independent Strategy Consulting</span>
+        <h1>You have the strategy. You need someone to make it happen.</h1>
+        <p class="hero-sub">Independent strategic consultant · 20 years between Brazil and France. A clear diagnosis, an executable plan, and someone by your side until it becomes results — not just a slide.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Let's talk</a>
+          <span class="hero-scroll-hint">or <a href="#help">see how I can help ↓</a></span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo">
+          <img src="/assets/foto-diogo.jpg" width="800" height="800" fetchpriority="high" alt="Diogo Pires de Oliveira, Independent Strategy Consultant">
+        </div>
+        <div class="hero-card">
+          <strong>Diogo Pires de Oliveira</strong>
+          <span>Independent Strategy Consultant · Paris</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- WIX: "The Problem" section — the 3 columns become a Repeater or 3 side-by-side Boxes; Wix stacks them automatically on mobile. -->
+  <section class="proof" id="proof" aria-label="Credentials">
+    <div class="container">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">years of executive experience in strategy and commercial execution</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">3</div>
+          <div class="stat-label">countries: Brazil, France and Canada</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">20×</div>
+          <div class="stat-label">revenue growth at Quicko in under 6 months</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">45+</div>
+          <div class="stat-label">people led at Movida, across 3 areas: Pricing, Commercial Planning and Products</div>
+        </div>
+      </div>
+      <div class="proof-names">
+        <span class="lead">Executive track record at</span>
+        <span class="name">GPA</span>
+        <span class="name">Groupe Casino</span>
+        <span class="name">AmBev</span>
+        <span class="name">Votorantim Cimentos</span>
+        <span class="name">Boehringer Ingelheim</span>
+        <span class="name">Mercado Livre</span>
+        <span class="name">Movida</span>
+        <span class="name">Quicko</span>
+        <span class="name">Stix</span>
+      </div>
+    </div>
+  </section>
+
   <section class="section bg-white" id="problem">
     <div class="container">
       <div class="section-header center">
@@ -457,7 +266,6 @@ strong{ color:var(--navy); }
     </div>
   </section>
 
-  <!-- WIX: "How I Help" — 2x2 grid; the featured card (span 2) can become a separate navy-background Strip above or below the other 3 if Wix's Repeater doesn't support uneven sizes. -->
   <section class="section bg-sand" id="help">
     <div class="container">
       <div class="section-header">
@@ -470,7 +278,7 @@ strong{ color:var(--navy); }
           <div>
             <span class="help-tag">Core of the practice</span>
             <h3>Your leadership finally rows in the same direction.</h3>
-            <p>Strategic planning and alignment: sessions that turn scattered ideas into a shared direction and a plan the team can actually execute.</p>
+            <p>Strategic planning and alignment: long-term vision, positioning diagnosis, priority setting and turning strategy into tactical plans the team can actually execute.</p>
           </div>
           <div>
             <p><strong>Strategic Planning &amp; Alignment</strong> is the foundation of everything I do — the other three areas grow out of it, depending on your business's specific challenge.</p>
@@ -479,23 +287,22 @@ strong{ color:var(--navy); }
         <div class="help-card">
           <span class="help-tag">Commercial Growth</span>
           <h3>Sales stop depending on luck or a lone hero.</h3>
-          <p>Commercial diagnosis, pricing and discount policy, pipeline and repeatable process — a predictable commercial engine, not dependent on one person.</p>
+          <p>Commercial diagnosis, pricing and discount policy, go-to-market, team structuring, loyalty and strategic partnerships — a predictable commercial engine, not dependent on one person.</p>
         </div>
         <div class="help-card">
           <span class="help-tag">Brazil ↔ France Expansion</span>
           <h3>Your company crosses the Atlantic without tripping over culture or regulation.</h3>
-          <p>20 years living in both markets. Support to enter, grow, or restructure an operation between Brazil and France, with a foot on each side.</p>
+          <p>Market validation, entry strategy, business model adaptation and local partner identification — with a foot on each side, after 20 years living in both markets.</p>
         </div>
         <div class="help-card">
           <span class="help-tag">Product Strategy &amp; Founder Mentoring</span>
           <h3>The founder stops deciding alone at 11pm.</h3>
-          <p>An external strategic partner, with real operating experience, to think through product, business model, and next steps together.</p>
+          <p>Positioning, OKRs, monetization model and critical product decisions, with an external strategic partner who has been through it inside real operations.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WIX: "How We Work" — 3 identical boxes, great fit for a Wix Repeater. -->
   <section class="section bg-white" id="models">
     <div class="container">
       <div class="section-header center">
@@ -507,49 +314,48 @@ strong{ color:var(--navy); }
         <div class="model-card">
           <span class="model-name">Single Session</span>
           <p class="model-question">"Need a perspective right now?"</p>
-          <p>A structured conversation for diagnosis and direction. Ideal for unlocking a decision, testing a hypothesis, or thinking out loud with someone who's seen this movie before.</p>
+          <p>One 90-minute session to unlock a specific decision: quick diagnosis, an external senior perspective, and a written summary. No commitment to continue.</p>
         </div>
         <div class="model-card">
           <span class="model-name">Monthly Retainer</span>
           <p class="model-question">"Want a constant strategic partner?"</p>
-          <p>Recurring presence in your operation: periodic meetings, review of indicators, and availability for decisions that can't wait until next month.</p>
+          <p>Four 60-minute sessions a month, availability in between, decision follow-up, and review of plans and materials. Renewable month to month.</p>
         </div>
         <div class="model-card">
           <span class="model-name">2–3 Month Project</span>
           <p class="model-question">"Have a project with defined scope?"</p>
-          <p>A concrete deliverable — strategic plan, commercial structuring, expansion plan — with a defined beginning, middle, and end.</p>
+          <p>Defined scope and deliverables, weekly working sessions, structured review cycles and a documented final delivery, with the option to extend.</p>
         </div>
       </div>
-      <p class="models-note">No model is a closed box. Many clients combine formats over time — hybrid arrangements are welcome. Start wherever makes sense; we'll adjust the rest in conversation.</p>
+      <p class="models-note">I work in co-production: we build with your team, not for it. Hybrid models and other forms of collaboration or partnership are welcome — start wherever makes sense and we'll adjust the rest in conversation.</p>
     </div>
   </section>
 
-  <!-- WIX: "Why It Works" — 2-column comparison; use a Strip with 2 side-by-side Boxes (stacked on mobile). -->
   <section class="section bg-navy" id="why">
     <div class="container">
       <div class="section-header center">
         <span class="eyebrow">Why It Works</span>
-        <h2>What changes when strategy has a single owner</h2>
+        <h2>Independent and senior, without the overhead of traditional consulting</h2>
         <p class="lede">It's not about being better than anyone else. It's about what happens when the person who designs the plan is also the one who follows through on execution.</p>
       </div>
       <div class="compare-grid">
         <div class="compare-col market">
           <h3>What the market usually offers</h3>
           <ul class="compare-list">
-            <li><span class="compare-icon">–</span> A junior team executes while the senior only shows up for the pitch</li>
+            <li><span class="compare-icon">–</span> A large firm sends a partner to sell and a junior analyst to deliver</li>
+            <li><span class="compare-icon">–</span> A hired executive needs months of onboarding, builds structure and needs managing</li>
+            <li><span class="compare-icon">–</span> A generalist freelancer, without strategic depth or senior reading of context</li>
             <li><span class="compare-icon">–</span> Lengthy reports, little action plan</li>
-            <li><span class="compare-icon">–</span> Generic methodology applied to any industry</li>
-            <li><span class="compare-icon">–</span> A consultant who's never worked inside an operation</li>
             <li><span class="compare-icon">–</span> A long contract, whether or not it fits the moment</li>
           </ul>
         </div>
         <div class="compare-col us">
           <h3>What you get with Conexão.fr</h3>
           <ul class="compare-list">
-            <li><span class="compare-icon">+</span> You talk directly to the person executing — always Diogo</li>
+            <li><span class="compare-icon">+</span> Direct access to the person who thinks and executes — always Diogo, no intermediaries</li>
+            <li><span class="compare-icon">+</span> I get into your context fast: no 90-day adaptation before value starts</li>
+            <li><span class="compare-icon">+</span> 20+ years of recognized patterns: I know what works, what doesn't and why</li>
             <li><span class="compare-icon">+</span> A clear action plan, with owners and deadlines</li>
-            <li><span class="compare-icon">+</span> Real experience inside operations (GPA, Casino, Movida, Quicko)</li>
-            <li><span class="compare-icon">+</span> 20 years living Brazil and France — not slide-deck theory</li>
             <li><span class="compare-icon">+</span> A flexible format, sized to your problem</li>
           </ul>
         </div>
@@ -557,93 +363,213 @@ strong{ color:var(--navy); }
     </div>
   </section>
 
-  <!-- WIX: "Case Studies" — 3 boxes, ideal as a Repeater. No client names, for confidentiality. -->
   <section class="section bg-white" id="cases">
     <div class="container">
       <div class="section-header center">
         <span class="eyebrow">Case Studies</span>
         <h2>Strategy turned into action — in three different contexts</h2>
-        <p class="lede">For confidentiality, the cases below don't include client names. What matters is what changed.</p>
+        <p class="lede">Figures are illustrative, to protect client confidentiality. The structure of the diagnoses and the deliverables reflect real projects.</p>
       </div>
-      <div class="case-grid">
-        <article class="case-card">
-          <span class="case-sector">Beauty Tech · Early Stage</span>
-          <h3>From idea to an investable business plan</h3>
-          <div class="case-block">
-            <h4>Challenge</h4>
-            <p>An early-stage startup needed to structure its go-to-market and validate its business model before raising capital.</p>
+
+      <article class="case">
+        <div class="case-grid-2">
+          <div class="case-side case-side--navy">
+            <img class="case-logo" src="/assets/logo-kokua.png" width="330" height="138" loading="lazy" alt="Kokua Sport Care &amp; Wellness">
+            <span class="case-sector eyebrow" style="margin:0">Sport &amp; Wellness · Scale-up · Brazil</span>
+            <span class="case-format">Ongoing engagement — Advisory Board since 2022</span>
           </div>
-          <div class="case-block">
-            <h4>What was done</h4>
-            <p>A complete Business Plan, development of the SensoLux Framework for sensory brand positioning, and go-to-market structuring.</p>
+          <div class="case-main">
+            <h3>How to scale a commercial operation that depended on the founder</h3>
+            <p>Kokua Sport Care &amp; Wellness was growing over 30% a year, but with a commercial operation concentrated in the founder and no structure to scale.</p>
+            <h4 class="case-sub">The core findings of the diagnosis</h4>
+            <div class="findings">
+              <div class="finding">
+                <div class="finding-num">&gt;80%</div>
+                <div><b>What we found</b>of B2B deals depended exclusively on the founder — a critical structural risk for scaling.</div>
+                <div><b>Recommendation</b>Hire a senior B2B sales executive and create a two-level approval policy.</div>
+                <div class="finding-impact"><b>Expected impact</b>The founder is freed up for strategic decisions.</div>
+              </div>
+              <div class="finding">
+                <div class="finding-num">5–8×</div>
+                <div><b>What we found</b>average ticket in B2B vs. B2C — yet the B2B channel got less than half of the commercial focus.</div>
+                <div><b>Recommendation</b>Rebalance the channel mix to 70% B2B over the 2026–2028 projection period.</div>
+                <div class="finding-impact"><b>Expected impact</b>Revenue growth without a proportional increase in cost.</div>
+              </div>
+              <div class="finding">
+                <div class="finding-num">&gt;35%</div>
+                <div><b>What we found</b>of annual revenue concentrated in a single quarter — a fragile seasonal base for any expansion.</div>
+                <div><b>Recommendation</b>Phased expansion roadmap: specialized chains → gyms → mass retail.</div>
+                <div class="finding-impact"><b>Expected impact</b>Lower volatility and a recurring revenue base.</div>
+              </div>
+            </div>
+            <details class="case-details" data-case="kokua">
+              <summary>See what was discussed and delivered</summary>
+              <div class="deliverables">
+                <div class="deliv"><h5>Commercial Policy 3.0</h5><ul>
+                  <li>Discount rules based on objective criteria</li>
+                  <li>Markup and payment and freight terms</li>
+                  <li>Two-level approval hierarchy</li>
+                  <li>End of case-by-case negotiation</li></ul></div>
+                <div class="deliv"><h5>2026–2028 Projection</h5><ul>
+                  <li>Excel financial model, 10 tabs</li>
+                  <li>Monthly and annual projection by channel</li>
+                  <li>Analysis of 12 SKUs and product mix</li>
+                  <li>Ranking of the top 30 B2B customers</li>
+                  <li>Integrated KPIs and diagnosis</li></ul></div>
+                <div class="deliv"><h5>Margin-Based Commission</h5><ul>
+                  <li>Rewards smart negotiation, not just volume</li>
+                  <li>Automatic simulator per order</li>
+                  <li>Aligned with the discount policy</li>
+                  <li>Documented gradual rollout</li></ul></div>
+                <div class="deliv"><h5>E-commerce Audit</h5><ul>
+                  <li>Technical performance and speed</li>
+                  <li>UX/UI and purchase funnel</li>
+                  <li>Site architecture and SEO</li>
+                  <li>Prioritized recommendations</li></ul></div>
+              </div>
+              <p class="case-result">Multi-year target (illustrative): 2–3× growth over the period, focused on B2B expansion and reducing seasonality.</p>
+            </details>
+            <p class="case-note">* Illustrative figures, kept confidential.</p>
           </div>
-          <div class="case-block">
-            <h4>Result</h4>
-            <p>The company had a structured business plan and a clear value narrative for investor conversations.</p>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-grid-2">
+          <div class="case-side case-side--sand">
+            <img class="case-logo" src="/assets/logo-skin-essentials.png" width="419" height="268" loading="lazy" alt="Skin Essentials">
+            <span class="case-sector eyebrow" style="margin:0">Beauty Tech · Early Stage · Brazil</span>
+            <span class="case-format">2–3 month project</span>
           </div>
-        </article>
-        <article class="case-card">
-          <span class="case-sector">Sport &amp; Wellness · Scale-up</span>
-          <h3>From hit-or-miss targets to a commercial machine</h3>
-          <div class="case-block">
-            <h4>Challenge</h4>
-            <p>A scale-up with a strong product, but inconsistent commercial performance across teams and regions.</p>
+          <div class="case-main">
+            <h3>How to launch a luxury cosmetic with no positioning, no channel and no brand narrative</h3>
+            <p>From diagnosis to the launch of Night Skin, by Skin Essentials: strategy, brand, product structure and go-to-market plan.</p>
+            <h4 class="case-sub">The process — from diagnosis to launch</h4>
+            <div class="steps">
+              <div class="step"><h5>1. Strategic Diagnosis</h5><ul>
+                <li>Full SWOT</li><li>Market analysis</li><li>B2B benchmarking</li><li>Detailed personas</li></ul></div>
+              <div class="step"><h5>2. Positioning &amp; Value Proposition</h5><ul>
+                <li>SensoLux Framework</li><li>Sensory luxury concept</li><li>Channel segmentation</li><li>Brand narrative</li></ul></div>
+              <div class="step"><h5>3. Product Structure</h5><ul>
+                <li>Night Skin Business Plan</li><li>Client line template</li><li>Identity and assets</li><li>Pricing model</li></ul></div>
+              <div class="step"><h5>4. Launch Plan</h5><ul>
+                <li>Go-to-market with physicians</li><li>Instagram content roadmap</li><li>Internationalization plan</li><li>Financial scenarios</li></ul></div>
+            </div>
+            <details class="case-details" data-case="skin-essentials">
+              <summary>See what was discussed and delivered</summary>
+              <div class="deliverables">
+                <div class="deliv"><h5>Complete Business Plan</h5><ul>
+                  <li>Mission, vision, values and positioning</li>
+                  <li>SWOT and B2B benchmarking</li>
+                  <li>3 personas with pains and expectations</li>
+                  <li>Financial model in 3 scenarios (conservative, moderate, optimistic)</li>
+                  <li>Scale roadmap and operating plan</li></ul></div>
+                <div class="deliv"><h5>SensoLux Framework</h5><ul>
+                  <li>Proprietary concept with 5 integrated dimensions</li>
+                  <li>Applied to product, brand and content</li>
+                  <li>Differentiator against B2B competitors</li>
+                  <li>Visual identity and brand guidelines</li></ul></div>
+                <div class="deliv"><h5>Launch Plan</h5><ul>
+                  <li>Activation of 12 anchor physicians</li>
+                  <li>8-week content roadmap</li>
+                  <li>Internationalization plan</li>
+                  <li>Loyalty and expansion model</li></ul></div>
+              </div>
+            </details>
+            <p class="case-result">Result: a clear strategy and an executable plan for Night Skin's first commercial phase.</p>
+            <p class="case-note">* Illustrative figures, kept confidential — structure based on a real project.</p>
           </div>
-          <div class="case-block">
-            <h4>What was done</h4>
-            <p>A complete commercial diagnosis, creation of Commercial Policy 3.0 (pricing, discounts, and incentives), and a financial projection aligned with the new policy.</p>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-grid-2">
+          <div class="case-side case-side--sand-dark">
+            <span class="case-sector eyebrow" style="margin:0">Confidential sector · Scoped project</span>
+            <span class="case-format">Complex strategic partnership</span>
           </div>
-          <div class="case-block">
-            <h4>Result</h4>
-            <p>A sales team with clear rules and predictability — discount decisions stopped being made case by case.</p>
+          <div class="case-main">
+            <h3>Preparing a complex strategic partnership: from briefing to the negotiating table</h3>
+            <p>A company needed to make a strategic partnership possible with a highly specialized external partner. The challenge: turn a well-understood internal vision into an executive presentation the partner could evaluate, understand and want to be part of.</p>
+            <h4 class="case-sub">The process — from briefing to negotiation</h4>
+            <div class="steps">
+              <div class="step"><h5>1. Strategic Briefing</h5><ul>
+                <li>Immersion in the project and context</li><li>Mapping the target partner</li><li>Goals of the conversation</li><li>Clarity on what needs to be said</li></ul></div>
+              <div class="step"><h5>2. Narrative Structure</h5><ul>
+                <li>Problem → solution → gain logic</li><li>Value opportunities for the partner</li><li>Flow and hierarchy</li><li>Validation before the visual work</li></ul></div>
+              <div class="step"><h5>3. Executive Deck</h5><ul>
+                <li>10–15 slides built around the partner</li><li>Executive language and clean visuals</li><li>Delivered editable and as PDF</li><li>Ready for the meeting and for sending</li></ul></div>
+              <div class="step"><h5>4. Iterative Refinement</h5><ul>
+                <li>3 review cycles with the client</li><li>Anticipating the partner's questions</li><li>Full walk-through of the material</li><li>Final pre-meeting alignment</li></ul></div>
+            </div>
+            <p class="case-result">Result: meeting with the strategic partner secured; the client led the negotiation with clarity and confidence.</p>
+            <div class="case-transparency">
+              <strong>Why this case has few details</strong>
+              For confidentiality, I don't disclose the client, the sector or the partner involved, and I prefer not to give any clues. I share what matters to you: how I work in complex, strategic partnerships — structuring the narrative, aligning the parties and preparing the negotiating table. In a conversation, I can explain the method in more depth, within what is permitted.
+            </div>
           </div>
-        </article>
-        <article class="case-card">
-          <span class="case-sector">Innovation &amp; Data · Scoped Project</span>
-          <h3>A pitch that opened the negotiating table</h3>
-          <div class="case-block">
-            <h4>Challenge</h4>
-            <p>An innovation and data company was seeking a strategic partnership and needed executive-level materials to match the conversation.</p>
-          </div>
-          <div class="case-block">
-            <h4>What was done</h4>
-            <p>Executive pitch deck, value narrative, and internal alignment ahead of the negotiation.</p>
-          </div>
-          <div class="case-block">
-            <h4>Result</h4>
-            <p>Materials used to open and steer the conversation with the targeted strategic partner.</p>
-          </div>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
   </section>
 
-  <!-- WIX: "About" — navy-background Strip; the monogram can be replaced with a real photo of Diogo (recommended) instead of the initials circle. -->
   <section class="section bg-navy" id="about">
     <div class="container about-grid">
       <div>
-        <div class="about-photo">
-          <img src="/assets/foto-diogo.jpg" alt="Diogo Pires de Oliveira, Independent Strategy Consultant" loading="lazy">
-        </div>
-        <div class="about-track">
-          <span>GPA · Grupo Pão de Açúcar</span>
-          <span>Groupe Casino</span>
-          <span>Movida</span>
-          <span>Quicko</span>
-          <span>Kokua · Advisory Board</span>
-        </div>
+        <ul class="timeline" aria-label="Career timeline">
+          <li><span class="when">Today</span><span class="what">Conexão.fr · Independent Strategy Consultant</span><span class="detail">Paris · Kokua Advisory Board since 2022</span></li>
+          <li><span class="when">2022 – 2023</span><span class="what">Movida Rent a Car</span><span class="detail">Led 3 areas — Pricing, Commercial Planning and Products — with 45+ people and 8 direct reports</span></li>
+          <li><span class="when">2021 – 2022</span><span class="what">Quicko</span><span class="detail">Revenue up 20× in under 6 months, through the handover to the SalesOps team</span></li>
+          <li><span class="when">2012 – 2021</span><span class="what">Groupe Casino</span><span class="detail">GPA (Brazil) · Casino Group (France) · Stix Fidelidade (Brazil)</span></li>
+          <li><span class="when">2007 – 2011</span><span class="what">Votorantim Cimentos</span></li>
+          <li><span class="when">2004 – 2005</span><span class="what">Boehringer Ingelheim</span></li>
+          <li><span class="when">2002 – 2003</span><span class="what">Mercado Livre</span></li>
+          <li><span class="when">1998 – 2002</span><span class="what">AmBev</span></li>
+        </ul>
       </div>
       <div>
         <span class="eyebrow">About Me</span>
         <h2>Who's on the other side of the table</h2>
-        <p>Diogo Pires de Oliveira has spent the last 20 years between Brazil and France, building strategy inside real operations — not just designing slides about them.</p>
-        <p>He's worked at GPA (Grupo Pão de Açúcar), Groupe Casino, Movida, and Quicko, and now sits on the Advisory Board at Kokua. Trilingual in Portuguese, French, and English, he understands both sides of the Atlantic: business culture, regulation, and what actually works in each market.</p>
+        <p>Diogo Pires de Oliveira, Independent Strategy Consultant, has built 20+ years of career between Brazil and France inside real operations — not just designing slides about them.</p>
+        <ul class="about-facts">
+          <li>At Movida Rent a Car, he led 3 areas — Pricing, Commercial Planning and Products — with 45+ people and 8 direct reports.</li>
+          <li>At Quicko, he grew revenue 20× in under 6 months, through the handover to the SalesOps team.</li>
+          <li>Advisory Board member at Kokua since 2022.</li>
+          <li>Trilingual in Portuguese, French and English, with experience in Brazil, France and Canada.</li>
+        </ul>
         <p class="about-quote">"Strategy with its feet on the ground: I build the framework with you and stay close until the plan becomes action — not just a slide."</p>
+        <p class="about-pro">I also support selected socio-environmental projects on a pro bono basis.</p>
       </div>
     </div>
   </section>
 
-  <!-- WIX: Final CTA — coral-background Strip; the email button can become a simple Wix Forms if you'd rather capture the lead than open the mail client directly. -->
+  <section class="section bg-sand" id="faq">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Frequently Asked Questions</span>
+        <h2>What people usually ask before talking</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What does an independent strategy consultant do?</summary>
+          <p>An independent strategy consultant helps a company decide where to go, prioritize what matters and turn that into an executable plan, without being tied to a large firm. Diogo Pires de Oliveira works directly with the client and stays involved until the plan becomes action.</p></details>
+        <details class="faq-item"><summary>How is an independent consultant different from a large consulting firm?</summary>
+          <p>In large firms there is often a partner who sells and a junior team that delivers. With Conexão.fr you talk directly to the person who thinks and executes, with no overhead and no 90-day adaptation period before value starts to show.</p></details>
+        <details class="faq-item"><summary>What kind of company and moment is this work right for?</summary>
+          <p>SMEs, scale-ups and founders who have a vision but can't get it off the page; whose sales depend on a few people; who need to build structure before scaling; or who want to grow between Brazil and France without improvising.</p></details>
+        <details class="faq-item"><summary>How does the first contact work?</summary>
+          <p>With a 30-minute conversation, no commitment, booked directly on the site. You don't need to have everything figured out beforehand: the conversation is there to understand where you are, where you want to go and which format makes the most sense.</p></details>
+        <details class="faq-item"><summary>What working formats are available?</summary>
+          <p>A single 90-minute session with a written summary; a monthly retainer with four 60-minute sessions and availability in between; or a 2 to 3 month project with defined scope and deliverables. Hybrid models and other forms of collaboration are welcome.</p></details>
+        <details class="faq-item"><summary>How much does independent strategy consulting cost?</summary>
+          <p>The investment depends on the format and scope. In the 30-minute conversation I understand your challenge and recommend the most suitable format, with a clear proposal before any commitment.</p></details>
+        <details class="faq-item"><summary>Do you work with companies between Brazil and France?</summary>
+          <p>Yes. Diogo Pires de Oliveira has more than 20 years of experience between the two countries and works in Portuguese, French and English. Support includes market validation, entry strategy, business model adaptation and identifying local partners.</p></details>
+        <details class="faq-item"><summary>Are the case studies real?</summary>
+          <p>Yes, they reflect real projects. The figures are illustrative and some details are omitted to protect client confidentiality.</p></details>
+      </div>
+    </div>
+  </section>
+
   <section class="section bg-coral final-cta" id="contact">
     <div class="container">
       <div class="section-header center">
@@ -651,13 +577,18 @@ strong{ color:var(--navy); }
         <h2>30 minutes. No commitment.</h2>
         <p class="lede">The best way to know if it makes sense to work together is to talk. No institutional pitch, no rigid proposal — just a direct conversation about your challenge.</p>
       </div>
-      <!-- WIX: scheduling — this Google Calendar iframe can be pasted as-is into a Wix "HTML embed" element. -->
-      <div class="scheduler-embed">
-        <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Zezvm9pO16WfeoXwKpaNAZqK6EBsRfg3BqogmpWthmLi3FJ-arNZoXgRg4AhqlSMfLxU8TNC0?gv=true" style="border: 0" width="100%" height="600" frameborder="0" title="Book a 30-minute conversation with Diogo Pires de Oliveira"></iframe>
+      <div class="scheduler-embed" id="scheduler">
+        <div class="scheduler-placeholder" data-scheduler-placeholder>
+          <p>Pick a time directly in Diogo's calendar. The calendar is provided by Google Calendar and only loads when you ask for it.</p>
+          <button type="button" class="btn btn-primary" data-load-scheduler>See available times</button><br>
+          <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Zezvm9pO16WfeoXwKpaNAZqK6EBsRfg3BqogmpWthmLi3FJ-arNZoXgRg4AhqlSMfLxU8TNC0?gv=true" target="_blank" rel="noopener">or open the calendar in a new tab</a>
+        </div>
+        <iframe data-src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Zezvm9pO16WfeoXwKpaNAZqK6EBsRfg3BqogmpWthmLi3FJ-arNZoXgRg4AhqlSMfLxU8TNC0?gv=true" style="border: 0" width="100%" height="600" frameborder="0" hidden title="Book a 30-minute conversation with Diogo Pires de Oliveira"></iframe>
       </div>
-      <p class="scheduler-alt">Prefer another way? Reach out directly by email or LinkedIn:</p>
+      <p class="scheduler-alt">Prefer another way? Email, call or reach out on LinkedIn:</p>
       <div class="contact-links">
-        <a href="mailto:diogo.oliveira@conexao.fr">✉ diogo.oliveira@conexao.fr</a>
+        <a href="mailto:contato@conexao.fr">✉ contato@conexao.fr</a>
+        <a href="tel:+33775763240">☎ +33 (0)7 75 76 32 40</a>
         <a href="https://www.linkedin.com/in/diogopiresdeoliveira/" target="_blank" rel="noopener">in LinkedIn</a>
       </div>
     </div>
@@ -665,7 +596,6 @@ strong{ color:var(--navy); }
 
 </main>
 
-<!-- WIX: Footer — use Wix's native Footer so it repeats automatically across all 3 languages; the language links here already exist in Wix Multilingual's native switcher. -->
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
@@ -675,7 +605,8 @@ strong{ color:var(--navy); }
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <p><a href="mailto:diogo.oliveira@conexao.fr">diogo.oliveira@conexao.fr</a></p>
+        <p><a href="mailto:contato@conexao.fr">contato@conexao.fr</a></p>
+        <p><a href="tel:+33775763240">+33 (0)7 75 76 32 40</a></p>
         <p><a href="https://www.linkedin.com/in/diogopiresdeoliveira/" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
       <div class="footer-col">
@@ -684,44 +615,20 @@ strong{ color:var(--navy); }
         <p><a href="#cases">Case Studies</a></p>
         <p><a href="#about">About</a></p>
       </div>
-      <div class="footer-col">
+      <div class="footer-col" data-lang-links>
         <h4>Language</h4>
-        <p><a href="/">Português</a></p>
-        <p><a href="/fr/">Français</a></p>
-        <p><a href="/en/">English</a></p>
+        <p><a href="/" hreflang="pt-BR" lang="pt-BR">Português</a></p>
+        <p><a href="/fr/" hreflang="fr" lang="fr">Français</a></p>
+        <p><a href="/en/" hreflang="en" lang="en">English</a></p>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Conexão.fr — Diogo Pires de Oliveira. All rights reserved.</span>
-      <span>Independent Strategy Consultant · Brazil ↔ France</span>
+      <span><a href="/en/privacy/">Legal notice and privacy</a> · <button type="button" class="linklike" data-open-consent>Manage cookies</button></span>
     </div>
   </div>
 </footer>
 
-<!-- WIX: script — if the mobile menu and scroll shadow from Wix's native Header already cover this, this block can be dropped. If using a full HTML embed, keep it via "Custom Code" (footer) or inside the embed itself. -->
-<script>
-(function(){
-  var nav = document.getElementById('siteNav');
-  var toggle = document.getElementById('navToggle');
-  var links = document.getElementById('navLinks');
-
-  window.addEventListener('scroll', function(){
-    if(window.scrollY > 12){ nav.classList.add('is-scrolled'); }
-    else{ nav.classList.remove('is-scrolled'); }
-  });
-
-  toggle.addEventListener('click', function(){
-    var isOpen = links.classList.toggle('is-open');
-    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-  });
-
-  links.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click', function(){
-      links.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded', 'false');
-    });
-  });
-})();
-</script>
+<script src="/assets/site.js" defer></script>
 </body>
 </html>

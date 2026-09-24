@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://conexao.fr/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://conexao.fr/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://conexao.fr/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://conexao.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://conexao.fr/"/>
+  </url>
+  <url>
+    <loc>https://conexao.fr/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://conexao.fr/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://conexao.fr/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://conexao.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://conexao.fr/"/>
+  </url>
+  <url>
+    <loc>https://conexao.fr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://conexao.fr/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://conexao.fr/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://conexao.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://conexao.fr/"/>
+  </url>
+</urlset>
