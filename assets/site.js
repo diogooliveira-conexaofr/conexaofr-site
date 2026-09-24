@@ -32,15 +32,15 @@
   /* ---------- CONSENTIMENTO (Consent Mode v2) ---------- */
   var TEXT = {
     pt: {
-      msg: 'Usamos cookies de medição (Google Analytics e Google Ads) para entender como o site é usado e avaliar nossas campanhas. Você escolhe: sem o seu aceite, nenhum cookie de medição é gravado.',
+      msg: 'Usamos cookies de medição (Google Analytics) para entender como o site é usado e melhorar o conteúdo. Você escolhe: sem o seu aceite, nenhum cookie de medição é gravado.',
       accept: 'Aceitar', reject: 'Recusar', more: 'Saiba mais', href: '/privacidade/'
     },
     fr: {
-      msg: 'Nous utilisons des cookies de mesure (Google Analytics et Google Ads) pour comprendre l’usage du site et évaluer nos campagnes. Vous décidez : sans votre accord, aucun cookie de mesure n’est déposé.',
+      msg: 'Nous utilisons des cookies de mesure (Google Analytics) pour comprendre l’usage du site et améliorer le contenu. Vous décidez : sans votre accord, aucun cookie de mesure n’est déposé.',
       accept: 'Accepter', reject: 'Refuser', more: 'En savoir plus', href: '/fr/confidentialite/'
     },
     en: {
-      msg: 'We use measurement cookies (Google Analytics and Google Ads) to understand how the site is used and to evaluate our campaigns. It’s your choice: without your consent, no measurement cookie is stored.',
+      msg: 'We use measurement cookies (Google Analytics) to understand how the site is used and to improve the content. It’s your choice: without your consent, no measurement cookie is stored.',
       accept: 'Accept', reject: 'Reject', more: 'Learn more', href: '/en/privacy/'
     }
   };
