@@ -436,3 +436,12 @@ strong{ color:var(--navy); }
 .faq-item p{ padding-bottom:22px; margin:0; }
 
 .scheduler-embed iframe[hidden], .scheduler-placeholder[hidden]{ display:none; }
+
+/* Correções de mobile: o botão do topo não pode esticar nem estourar a largura */
+body{ overflow-x:clip; }
+.nav-right .btn{ width:auto; }
+@media (max-width:480px){
+  .nav-inner{ padding:12px 16px; gap:10px; }
+  .logo{ font-size:1.35rem; }
+  .nav-right .btn{ padding:10px 14px; font-size:.85rem; }
+}
