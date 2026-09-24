@@ -508,3 +508,63 @@ p, li{ text-wrap:pretty; }
   .section-header{ margin-bottom:40px; }
   .probono{ padding:16px; gap:12px; }
 }
+
+/* ============================================
+   V4 — ritmo vertical (menos vazio entre seções) e respiro interno nos boxes
+   ============================================ */
+.section{ padding:clamp(48px,7vw,96px) 0; }
+.hero{ padding:clamp(56px,9vw,112px) 0 clamp(56px,7vw,88px); }
+.proof{ padding:clamp(36px,5vw,64px) 0 clamp(32px,4vw,52px); }
+.section-header{ margin-bottom:clamp(32px,4vw,48px); }
+.pain-grid, .help-grid, .models-grid, .case-grid{ gap:24px; }
+.pain-num{ font-size:2.2rem; margin-bottom:12px; }
+.help-card.featured{ gap:26px; }
+.model-card{ padding:34px 30px; }
+.step{ padding:20px 20px 22px; }
+.step li{ padding:3px 0; }
+.finding > div{ padding:20px 22px; }
+.deliv{ padding:22px 24px; }
+.deliv li{ padding:3px 0 3px 20px; }
+.case{ margin-bottom:28px; }
+.case-main{ padding:36px 40px; }
+.case-sub{ margin:24px 0 12px; }
+.case-delivered{ margin-top:30px; padding-top:24px; }
+.case-result{ padding:16px 22px; }
+.case-transparency{ padding:22px 24px; }
+.probono{ padding:20px 22px; }
+.faq-item{ padding:0 26px; }
+.footer{ padding:48px 0 26px; }
+
+/* Seletor de idioma dentro do menu do celular */
+.nav-links .lang-switch--menu{ display:none; }
+
+@media (max-width:900px){
+  .finding > div{ padding:18px 20px; }
+  .hero-grid{ gap:32px; }
+}
+@media (max-width:760px){
+  .nav-links .lang-switch--menu{ display:flex; gap:8px; padding:16px 0 6px; font-size:.95rem; }
+  .nav-links .lang-switch--menu a{ width:auto; padding:8px 16px; border:1px solid var(--sand-dark); border-radius:20px; color:var(--navy); }
+  .nav-links .lang-switch--menu a[aria-current="page"]{ background:var(--navy); color:var(--white); border-color:var(--navy); }
+  .nav-links .lang-switch--menu .lang-sep{ display:none; }
+}
+@media (max-width:600px){
+  .section{ padding:48px 0; }
+  .hero{ padding:40px 0 48px; }
+  .pain-card, .help-card, .model-card{ padding:26px 22px; }
+  .help-card.featured{ gap:12px; }
+  .pain-num{ font-size:1.9rem; margin-bottom:8px; }
+  .stats{ gap:22px 18px; }
+  .stat{ padding-top:14px; }
+  .proof-names{ margin-top:32px; padding-top:22px; }
+  .case{ margin-bottom:24px; }
+  .case-main{ padding:26px 22px; }
+  .case-side{ padding:24px 22px; }
+  .step{ padding:18px 20px 20px; }
+  .deliv{ padding:20px 22px; }
+  .compare-col{ padding:26px 22px; }
+  .probono{ padding:18px; }
+  .case-result, .case-transparency{ padding:16px 18px; }
+  .faq-item{ padding:0 20px; }
+  .footer{ padding:40px 0 24px; }
+}
