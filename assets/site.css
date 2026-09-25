@@ -568,3 +568,27 @@ p, li{ text-wrap:pretty; }
   .faq-item{ padding:0 20px; }
   .footer{ padding:40px 0 24px; }
 }
+
+/* ============================================
+   V5 — correções pontuais
+   ============================================ */
+/* texto em negrito sobre fundo azul precisa ser claro */
+.bg-navy strong, .help-card.featured strong{ color:var(--white); }
+.help-card.featured{ align-items:start; }
+
+/* etapas: número como etiqueta acima do título */
+.step-n{ display:block; font-family:var(--font-body); font-weight:700; font-size:.72rem; letter-spacing:.16em; color:var(--coral); margin-bottom:6px; }
+
+/* agenda do Google: altura suficiente para não criar barra de rolagem interna */
+.scheduler-embed iframe{ height:720px; }
+@media (max-width:760px){ .scheduler-embed iframe{ height:960px; } }
+
+/* ícones de contato */
+.contact-links a{ align-items:center; }
+.contact-links svg{ flex:0 0 auto; width:20px; height:20px; }
+
+/* Áreas de atuação: 3 cartões lado a lado abaixo do destaque (sem cartão sozinho na última linha) */
+@media (min-width:901px){
+  .help-grid{ grid-template-columns:repeat(3,1fr); }
+  .help-card.featured{ grid-column:span 3; }
+}
